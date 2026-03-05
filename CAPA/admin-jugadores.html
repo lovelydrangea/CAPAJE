@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Gestión de Jugadores</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<h1>Gestión de Jugadores</h1>
+
+<a href="admin-dashboard.html">Volver al panel</a>
+
+<h2>Registrar Jugador</h2>
+
+<form>
+
+<label>Nombre</label>
+<input type="text" required>
+
+<label>Número de Camiseta</label>
+<input type="number" required>
+
+<label>Posición</label>
+<input type="text" required>
+
+<label>Equipo</label>
+<select>
+<option>México</option>
+<option>Argentina</option>
+<option>Francia</option>
+</select>
+
+<label>Fotografía</label>
+<input type="file">
+
+<button type="submit">Guardar Jugador</button>
+
+</form>
+
+<hr>
+
+<h2>Lista de Jugadores</h2>
+
+<table border="1">
+
+<tr>
+<th>Nombre</th>
+<th>Equipo</th>
+<th>Número</th>
+<th>Acciones</th>
+</tr>
+
+<tr>
+<td>Lionel Messi</td>
+<td>Argentina</td>
+<td>10</td>
+<td>
+<button>Editar</button>
+<button>Eliminar</button>
+</td>
+</tr>
+
+<tr>
+<td>Kylian Mbappé</td>
+<td>Francia</td>
+<td>7</td>
+<td>
+<button>Editar</button>
+<button>Eliminar</button>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
